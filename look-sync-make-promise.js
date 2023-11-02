@@ -1,3 +1,34 @@
+/**
+ * Example
+ */
+
+// const fs = require('fs');
+
+// const run = generatorCb => {
+//   const gen = generatorCb();
+
+//   const iterate = result => {
+//     if(result.done) return result.value;
+//     return result.value.then(v => iterate(gen.next(v), err => iterate(gen.throw(err))));
+//   }
+  
+//   iterate(gen.next());
+// }
+
+// const readDirPromise = dir => new Promise((resolve, reject) => {
+//   fs.readdir(dir, (err, res) => {
+//     if(err) {
+//       reject(err)
+//     } else {
+//       resolve(res)
+//     }
+//   })
+// });
+
+// run(function *() {
+//   const exercises = yield readDirPromise('.');
+//   console.log(exercises);
+// })
 
 /**
  * My first solution
